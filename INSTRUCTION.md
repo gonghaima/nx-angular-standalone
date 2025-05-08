@@ -39,3 +39,22 @@ npx nx g @nx/angular:component hello-world --standalone --dry-run
 ```
 
 Alternatively, using Nx vscode extension
+
+## Run build
+
+```
+npx nx build
+```
+
+## Generate a library
+
+```
+npx nx g @nx/angular:library modules/products --dry-run
+npx nx g @nx/angular:library modules/orders --dry-run
+npx nx g @nx/angular:library modules/shared/ui --dry-run
+```
+
+## Check graph
+```
+npx nx graph
+```
