@@ -49,9 +49,9 @@ npx nx build
 ## Generate a library
 
 ```
-npx nx g @nx/angular:library modules/products --dry-run
-npx nx g @nx/angular:library modules/orders --dry-run
-npx nx g @nx/angular:library modules/shared/ui --dry-run
+npx nx g @nx/angular:library modules/products 
+npx nx g @nx/angular:library modules/orders 
+npx nx g @nx/angular:library modules/shared/ui 
 ```
 
 ## Check graph
